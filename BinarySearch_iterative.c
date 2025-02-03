@@ -31,3 +31,6 @@ int main() {
     
     return 0;
 }
+
+// Time Complexity O(nlogn)
+// T(n)= T(n/2)+1
