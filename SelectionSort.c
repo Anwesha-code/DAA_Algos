@@ -40,3 +40,6 @@ int main() {
 
 
 // Time complexity= O(n^2)
+//Best case= O(n^2)
+//Average case= O(n^2)
+//worst case= O(n^2)
