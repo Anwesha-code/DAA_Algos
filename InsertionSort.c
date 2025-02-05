@@ -40,3 +40,6 @@ int main() {
 
 
 // Time Complexity = O(n^2)
+// best case= O(n); when array already sorted
+//average case= O(n^2)
+//worst case= O(n^2)
