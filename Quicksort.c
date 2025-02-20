@@ -25,9 +25,9 @@ void quickSort(int arr[], int low, int high) {
     if (low < high) {                         // when low = high; base case, as only one element left to sort
         
         int pi = partition(arr, low, high);            // selects pivot and partitions into right and left half and puts pivot on right spot
-        // Recursively sort the elements before and after partition
-        quickSort(arr, low, pi - 1);              //quicksort on left half
-        quickSort(arr, pi + 1, high);                //quicksort on right half
+        
+        quickSort(arr, low, pi - 1);              //quicksort on left half recursively
+        quickSort(arr, pi + 1, high);                //quicksort on right half recursively
     }
 }
 
